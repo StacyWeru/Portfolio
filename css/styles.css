@@ -33,9 +33,26 @@ h4{
     font-family: 'Merienda', cursive;
     font-size: 20px;
 }
-.row{ margin 0 -5x;}
+.row{ margin: 0 -5x;}
 
 .row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.hobbies{
+    font-family: 'Merienda', cursive;
+    font-size: 20px;
+}
+.column2{
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+    font-family: 'Special Elite',  cursive;
+    font-size: 20px;
+}
+
+.row2::after{
     content: "";
     display: table;
     clear: both;
