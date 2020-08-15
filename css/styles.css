@@ -50,3 +50,14 @@ h4{
     display: table;
     clear: both;
 }
+
+.box{
+    font-family: 'Merienda', cursive;
+    font-size: 20px;
+    box-sizing: content-box;
+    background-color: cyan;
+    padding: 2px;
+    border: 10px , black;
+    margin: 5px ;
+    text-align: center;
+}
