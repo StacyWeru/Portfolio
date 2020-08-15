@@ -21,3 +21,20 @@ html{
     font-family: 'Special Elite', cursive;
     font-size: 25px;
 }
+h4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-decoration: 'underline ', rgba(5, 49, 51, 0.918);
+}
+.column{
+    float: left;
+    width: 50%;
+    padding: 0 10 px;
+}
+.row{ margin 0 -5x;}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
