@@ -8,19 +8,31 @@ html{
 
 .header h1{
     font-family:'Shadows Into Light' , cursive;
-    font-size: 150px;
+    font-size: 110px;
     text-align: center;
     text-shadow:4px 4px 4px #a30de9;
 }
+.header{
+    padding: content;
+    clear: both;
+}
 .container{
     display: flex;
-    justify-content: space-around;
+    justify-content:flex-start;
+   
 }
+#container:before {
+    content: ' ';
+    display: table;
+    width: 10em;    /* Min width required */
+  }
+
 .items{
-    flex:auto ;
-    padding: 15px;
+    padding: 5px;
     font-family: 'Special Elite', cursive;
     font-size: 25px;
+    float: left;
+    flex: content;
 }
 span{
     color: blueviolet;
@@ -61,6 +73,12 @@ h4{
     text-align: center;
     border: 40px ,rgb(207, 24, 24);
     padding: 40px;
-    margin:3<0px;
+    margin:30px;
     background-color: cornflowerblue;
 }
+@media screen and (max-width:768px) {
+    .column {
+      width: 100%;
+    }
+  }
+
