@@ -21,11 +21,6 @@ html{
     justify-content:flex-start;
    
 }
-#container:before {
-    content: ' ';
-    display: table;
-    width: 10em;    /* Min width required */
-  }
 
 .items{
     padding: 5px;
@@ -71,10 +66,11 @@ h4{
     font-family: 'Merienda', cursive;
     font-size: 20px;
     text-align: center;
-    border: 40px ,rgb(207, 24, 24);
-    padding: 40px;
-    margin:30px;
-    background-color: cornflowerblue;
+    width: 100%;
+    padding: 10px rgb(86, 86, 247);
+    border: 5px gray;
+    margin: 2px;
+    background-color: grey;
 }
 @media screen and (max-width:768px) {
     .column {
