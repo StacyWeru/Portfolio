@@ -67,10 +67,12 @@ h4{
     font-size: 20px;
     text-align: center;
     width: 100%;
-    padding: 10px rgb(86, 86, 247);
-    border: 5px gray;
-    margin: 2px;
-    background-color: grey;
+    border: 2px solid red;
+    padding: 2px;
+    margin: 5px;
+    background-color: rgb(0, 255, 213);
+    box-sizing: content-box;
+    
 }
 @media screen and (max-width:768px) {
     .column {
