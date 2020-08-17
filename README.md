@@ -10,7 +10,7 @@ It is a webpage that is easily opened by any system or browser that supports HTM
 * It has a simple layout therefore easy to understand/
 
 ## Known Bugs
-When resizing the screen,There will be a chane in the beginning flex-container where you'll only be able to read four letters a line.
+When resizing the screen,There will be a change in the flex-container where you'll only be able to read four letters a line.
 ## Technologies Used
 HTML
 CSS
