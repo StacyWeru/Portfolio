@@ -5,7 +5,7 @@
 ## Description
 It is a webpage that is easily opened by any system or browser that supports HTML/CSS files.
 ## Setup/Installation Requirements
-* You should have the link to the portfolio
+* You should have the link to the portfolio https://stacyweru.github.io/Portfolio/
 * Any text editor will do if the code is needed to be checked. I used vscode.
 * It has a simple layout therefore easy to understand/
 
